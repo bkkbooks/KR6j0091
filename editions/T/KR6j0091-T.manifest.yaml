@@ -1,0 +1,52 @@
+canonical_identifier: bkk:krp/KR6j0091/T/v1
+canonical_location: https://kanripo.org/bkk/KR6j0091/T/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 佛心經
+  identifiers:
+    krp: KR6j0091
+    cbeta: T19n0920
+    cbeta_old_id: T19n0920
+    authorityid: CA0001090
+    json_key: T0920
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T19/T19n0920.xml
+    old_id: T19n0920
+  edition:
+    short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6j0091_000-T.yaml, hash: 'sha256:bca128f3c5b646aa5f38d3c16e1c733eb218024c4980616914bb02a93260c4c8'}
+  - {seq: 1, filename: KR6j0091_001-T.yaml, hash: 'sha256:e08174a99453bd3af7f5d15daf603cf7271778f4e483bb8080ffa16dd76e23ec'}
+  - {seq: 2, filename: KR6j0091_002-T.yaml, hash: 'sha256:a7ebd5d6df2efff17adab4ee376154f98e5e723b25c444b94c384718884702fc'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6j0091_000-T.markers.yaml, hash: 'sha256:674c82f3525f56dc49c80f0adbc2475284fc7823a55d84243509a061991a6484'}
+  - {seq: 1, role: markers, filename: assets/KR6j0091_001-T.markers.yaml, hash: 'sha256:b1caca8fff4c065f505ae59a26c216c859c5ea93318eda915148a4b7a0fd22a7'}
+  - {seq: 2, role: markers, filename: assets/KR6j0091_002-T.markers.yaml, hash: 'sha256:3dacec23985fccc279f7dedf9d65f210e698eede05f9105ba53b16e6ea477c62'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6j0091_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 8895
+  label: '佛心經品亦通大隨求陀羅尼卷
+
+    上'
+  type: juan
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6j0091_T_002-juan-start
+    span:
+    - body
+    - 0
+    - 8784
+  label: 佛心中心印品中卷下法別
+  type: juan
+  level: 1
+hash: sha256:4589b9a204a94a89e42d896f8a3989e9c7ddd36b77b43c3d0c594a0ad79aa3d8
